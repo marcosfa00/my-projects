@@ -32,20 +32,16 @@ public class Main {
                System.out.println();
                System.out.println("INTRODUZCA LA ALTURA DEL TRIANGULO RECTANGULO CON CATETOS IGUALES");
                int altura_triangulo = sc.nextInt();
-
-
                figuras.mostrarTrianguloReves(altura_triangulo);
 
             break;
            case 2:
         System.out.println("TRIANGULO RECTANGULO A DERECHO");
+               System.out.println("INTRODUZCA LA ALTURA DEL TRIANGULO RECTANGULO DE 2 CATETOS IGUALES");
+               altura_triangulo = sc.nextInt();
+               figuras.mostrarTrianguloDerecho(altura_triangulo);
 
-        for(int j = 0;j<=7;j++){
-            for (int i = 0;i<=j;i++){
-                System.out.print("+");
-            }
-            System.out.println();
-        }
+
                break;
            case 3:
         System.out.println("RECTANGULO");

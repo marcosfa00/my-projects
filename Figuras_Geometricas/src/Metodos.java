@@ -40,4 +40,15 @@ public class Metodos {
         }
     }
 
+    public void mostrarTrianguloDerecho(int base){
+        this.altura = base;
+        base = this.altura;
+        for(int j = 0;j<=7;j++){
+            for (int i = 0;i<=j;i++){
+                System.out.print("+");
+            }
+            System.out.println();
+        }
+    }
+
 }
